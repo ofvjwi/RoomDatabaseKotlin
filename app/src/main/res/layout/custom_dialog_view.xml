@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edittext_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/edittext_background"
+        android:hint="enter your note title"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="#cbcbcb" />
+
+    <EditText
+        android:id="@+id/edittext_note"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:hint="enter your note"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="#cbcbcb" />
+
+</LinearLayout>
+
